@@ -1,0 +1,19 @@
+services:
+  minecraft-bot:
+    image: tirththoria/minecraft-bot:latest
+    environment:
+      - SERVER_HOST=34.28.112.9
+      - SERVER_PORT=25565
+    restart: always
+    deploy:
+      replicas: 15
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: '512M'
+        reservations:
+          cpus: '0.2'
+          memory: '256M'
+    # Optional: Mount logs directory
+    volumes:
+      - ./logs:/usr/src/app/logs
