@@ -1,0 +1,6 @@
+ minecraftServer:
+   eula: true
+   version: "1.21"
+   onlineMode: false
+   maxPlayers: 100
+   difficulty: peaceful
