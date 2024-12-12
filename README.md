@@ -19,7 +19,7 @@ Stream high-quality Unreal Engine gameplay from a GPU-enabled VM to client devic
 2.  **Install Unreal Engine:**
     
     -   Download and install Unreal Engine from Epic Games Launcher.
-    -   From the Fab marketplace, choose a suitable demo. In this project, the [Pixel Streaming Demo](https://www.fab.com/listings/bfa184d1-f336-4613-933a-a906f98d9c16) is used.
+    You can choose a suitable demo from the Fab marketplace. This project uses the [Pixel Streaming Demo](https://www.fab.com/listings/bfa184d1-f336-4613-933a-a906f98d9c16).
     -   Open your project in Unreal Engine.
 3.  **Enable Pixel Streaming:**
     
